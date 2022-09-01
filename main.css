@@ -105,7 +105,31 @@ html {
       }
 
       @media screen and (max-width: 600px) {
+        .timeline::after {
+            left: 30px;   
+        }
 
+        .container {
+            width: 100;
+            padding-left: 70px;
+            padding-right: 25px;
+            position: relative;
+        }
+
+        .container::before {
+            left: 60px;
+            border: medium solid #fff;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent #fff transparent transparent;
+        }
+
+        .left::after, .right::before {
+            left: -15px;
+        }
+
+        .right {
+            left: 0%;
+        }
       }
         
       
