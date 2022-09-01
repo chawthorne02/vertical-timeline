@@ -9,39 +9,49 @@
     <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
-   <div class="timeline">
-    <div class="container left">
-        <div class="info">
+    <main class="container">
+        <ul class="timeline">
+            <li class="timeline-event">
+                <h2>Title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae repudiandae quae quidem nam vel adipisci ad animi laborum, harum quas necessitatibus soluta reprehenderit veniam. 
+                    Nisi doloribus vitae deleniti ut quae.</p>
+                    <button class="more" type="button">More</button>
+                    <div class="current-date">
+                        <script>
+                        date = new Date().toLocaleDateString();
+                        document.write(date);
+                        </script>
+                        </div>
+            </li>
+            <li class="timeline-event">
+                <h2 class="right-card">Card Title</h2>
+                <p class="right-info" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae eligendi consequuntur velit nihil laboriosam cupiditate sed fugit tenetur et ut. 
+                    Cum est commodi sed reiciendis autem? Necessitatibus laborum odit quas?</p>
+                    <button class="rightbtn" type="button">More</button>
+                    <div class="current-date2">
+                        <script>
+                        date = new Date().toLocaleDateString();
+                        document.write(date);
+                        </script>
+                        </div>
+            </li>
+                
+            <li class="timeline-event">
+                <h2>Quote</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Fugiat nobis quidem molestiae aliquid dolor dignissimos commodi, itaque nam aut minus ipsum, excepturi nostrum atque temporibus tenetur voluptatum obcaecati architecto magnam.
+                    <div class="current-date3">
+                        <script>
+                        date = new Date().toLocaleDateString();
+                        document.write(date);
+                        </script>
+                        </div>
+                </p>
+            </li>
             
-            <h2>Title</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium at tempora suscipit rerum, quae sint, repellendus minus ipsum, deleniti rem doloremque excepturi. 
-                Obcaecati minus dolorem nisi sit aut at facere!</p>
-                <button class="more" type="button">More</button>
-        </div>
-     </div>
 
-     <div class="container right">
-        <div class="info">
-            <h2>Card Title</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem saepe magnam libero doloremque inventore ipsum excepturi quidem facilis quaerat, porro voluptatem? 
-                Cupiditate illo quos in, eum odio eaque culpa nostrum!</p>
-                <button class="more" type="button">More</button>
-        </div>
-     </div>
-
-     <div class="container left"> 
-        <div class="info">
-            <h2>Quote</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam facilis magni cum. 
-                Et reiciendis, distinctio molestias, delectus rerum asperiores commodi sed non voluptas expedita facere cupiditate sequi eos, corporis cumque?</p>
-        </div>
-     </div>
-    
-
-   
-
-    
-    </div>
+        </ul>
+    </main>
 
 </body>
 </html>
