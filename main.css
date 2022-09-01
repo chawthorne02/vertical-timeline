@@ -10,7 +10,6 @@ html {
     body {
         background-color: #adadad;
         font-family: Georgia, 'Times New Roman', Times, serif;
-
     }
 
     .timeline {
@@ -48,7 +47,6 @@ html {
         top: 15px;
         border-radius: 50%;
         z-index: 1;
-
     }
 
     .left {
@@ -71,7 +69,7 @@ html {
         border-width: 10px 0 10px 10px;
         border-color: transparent transparent transparent #fff;
 
-    }
+}
 
     .right::before {
         content: " ";
@@ -97,6 +95,20 @@ html {
         border-radius: 6px;
         
       }
+
+      .container h2 { 
+         background-image: url(/Users/corey/Documents/code/homework/vertical-timeline/sunset.jpeg);
+        width: 100%;
+        height: 100px;
+        color: #fff;
+        text-align: center;
+      }
+
+      @media screen and (max-width: 600px) {
+
+      }
+        
+      
 
 
 
