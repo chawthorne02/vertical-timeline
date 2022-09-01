@@ -31,12 +31,36 @@ html {
    
     }
 
-    .info {
+    .container {
         padding: 10px 40px;
         position: relative;
         background-color: #fff;
         width: 50%;
     }
+
+    .container ::after {
+        content: "";
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: -17px;
+        background-color: #026289;
+        border: 4px solid #fff;
+        border-radius: 50%;
+
+    }
+
+    .left {
+        left: 0;
+    }
+
+    .right{
+        left: 50%
+    }
+
+    
+
+    
 
     
     
