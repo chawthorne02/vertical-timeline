@@ -101,7 +101,7 @@ li > p {
     padding-left: 4px;
     padding-right: 4px;
     bottom: 77%;
-    left: 72%;
+    left: 76%;
 }
 
 .current-date2 {
@@ -221,7 +221,68 @@ li > p {
     .container::before {
         left: 2%;
     }
-}
+    .timeline::after {
+        left: 31px;
+      }
+    
+    
+      .timeline-event {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+      }
+    
+    
+      .timeline-event::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+      }
+    
+      .fa-solid::after {
+        left: 15px;
+      }
+
+      li > h2 {
+        right: 60px;
+      }
+      
+      p {
+        right: 50px;
+        bottom: 20px
+      }
+
+      .current-date {
+        bottom: 237px;
+        left: 143px;
+      }
+
+      .more {
+        bottom: 75px;
+        left: 192px;
+
+      }
+
+      .current-date2 {
+        bottom: 204px;
+        right: 50%;
+      }
+    
+      .rightbtn {
+        bottom: 43px;
+        left: 192px;
+      }
+
+      .current-date3 {
+        bottom: 235px;
+        left: 197px;
+      }
+        
+      .pencil1 {
+        right: 573px;
+      }
+ }
 
       
 
