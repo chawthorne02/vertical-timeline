@@ -63,7 +63,7 @@ ul {
 
 .timeline-event:nth-child(even){
     margin-left: 51%;
-    background-image: url(images/sunset.jpeg);
+    background-image: url(sunset.jpeg);
     background-size: 495px 87px;
     background-repeat: no-repeat;
 }
@@ -101,7 +101,7 @@ li > p {
     padding-left: 4px;
     padding-right: 4px;
     bottom: 77%;
-    left: 76.5%;
+    left: 72%;
 }
 
 .current-date2 {
@@ -145,8 +145,9 @@ li > p {
 
 .right-card {
     top: 30px;
-    color: #ffff;
+    color: #000;
     z-index: 1;
+    color: #fff;
 
 }
 
@@ -175,6 +176,42 @@ li > p {
     left: 25px;
     bottom: 2px; 
 }
+.fa-solid {
+    position: relative;
+    bottom: 440px;
+    left: 570px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: solid 1px #02628A;
+    border-radius: 50%;
+    background-color: #02628A;
+    
+
+}
+
+.pencil1 {
+    display: inline-block;
+    position: relative;
+    bottom: 225px;
+}
+
+.pencil2 {
+    display: inline-block;
+    position: relative;
+    left: -22px;
+}
+
+.pencil3 {
+    display: inline-block;
+    position: relative;
+    top: 250px;
+    right: 49px;
+}
+
+
 
 @media (max-width: 768px) {
     .timeline-event:nth-child(even) {
