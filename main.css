@@ -92,6 +92,14 @@ li > p {
     bottom: 16px; 
 } 
 
+.more:hover {
+    background-color: blue;
+}
+
+.rightbtn:hover {
+    background-color: blue;
+}
+
 .current-date {
     display: inline-block;
     position: relative;
@@ -282,6 +290,8 @@ li > p {
       .pencil1 {
         right: 573px;
       }
+
+      
  }
 
       
